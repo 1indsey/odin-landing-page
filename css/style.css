@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 100px;
+    padding: 8px 100px;
     background-color: #e5e7eb;
 }
 
@@ -33,6 +33,21 @@ nav {
 
 nav a:hover {
     color: #E32C68;
+}
+
+.module1 {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 8px 100px;
+}
+
+.module1-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.module1-image {
+    max-width: 50%;
 }
 /* COLORS
 blue: #64aec1
