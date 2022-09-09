@@ -1,9 +1,41 @@
 body {
     font-family: "Karla", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
 }
 
-/* COLORS: blue: #64aec1 pink: #E32C68 */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 100px;
+    background-color: #e5e7eb;
+}
+
+#logo {
+    width: 10%;
+}
+nav {
+    display: flex;
+    gap: 48px;
+}
+
+.nav {
+    text-decoration: none;
+    color: #2a4e57;
+}
+
+nav a:hover {
+    color: #E32C68;
+}
+/* COLORS
+blue: #64aec1
+dark blue: #2a4e57
+pink: #E32C68
+light gray: #E5E7EB */
