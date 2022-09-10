@@ -8,6 +8,9 @@ body {
 
 p {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -38,17 +41,50 @@ nav a:hover {
 .module1 {
     display: flex;
     background-color: #e5e7eb;
-    padding: 8px 100px;
+    padding: 0px 100px;
+    gap: 70px;
+    align-items: center;
 }
 
 .module1-left {
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
+h1 {
+    color:#2a4e57;
+    margin: 0;
+    padding: 0;
+}
 .module1-image {
     max-width: 50%;
+    flex: auto;
 }
+
+button {
+    background-color: #E32C68;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    padding: 12px;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color:#E32C68;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    padding: 12px;
+    max-width: 150px;
+}
+
 /* COLORS
 blue: #64aec1
 dark blue: #2a4e57
