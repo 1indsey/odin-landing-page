@@ -1,6 +1,7 @@
 body {
     font-family: "Karla", sans-serif;
     min-height: 100vh;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -41,7 +42,7 @@ nav a:hover {
 .module1 {
     display: flex;
     background-color: #e5e7eb;
-    padding: 0px 100px;
+    padding: 0px 100px 32px;
     gap: 70px;
     align-items: center;
 }
@@ -71,6 +72,7 @@ button {
     text-decoration: none;
     padding: 12px;
     max-width: 150px;
+    min-width: 150px;
     border-radius: 10px;
 }
 
@@ -83,6 +85,74 @@ button:hover {
     text-decoration: none;
     padding: 12px;
     max-width: 150px;
+}
+
+.module2 {
+    padding: 20px 0px;
+}
+
+.module2, .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module2-content {
+    display: flex;
+    flex: auto;
+    gap: 30px;
+    justify-content: center;
+}
+
+.info img {
+    max-width: 200px;
+}
+
+.module3 {
+    background-color: #2a4e57;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 50px 200px;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.speaker {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.module4 {
+    background-color: #64aec1;
+    color: white;
+    margin: 50px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /* COLORS
